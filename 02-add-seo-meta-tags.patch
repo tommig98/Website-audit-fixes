@@ -1,0 +1,27 @@
+--- a/index.html
++++ b/index.html
+@@ -3,6 +3,15 @@
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-  <title>Sito Web</title>
++  <title>AI Fitness Coach - Programmi Personalizzati di Allenamento e Nutrizione</title>
++  <meta name="description" content="Crea il tuo programma di allenamento personalizzato con l'AI. Schede fitness, piani nutrizionali e coaching digitale per raggiungere i tuoi obiettivi.">
++  
++  <!-- Open Graph / Facebook -->
++  <meta property="og:type" content="website">
++  <meta property="og:url" content="https://yoursite.com/">
++  <meta property="og:title" content="AI Fitness Coach - Programmi Personalizzati">
++  <meta property="og:description" content="Crea il tuo programma di allenamento personalizzato con l'AI.">
++  <meta property="og:image" content="https://yoursite.com/og-image.jpg">
++  
+   <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+@@ -15,7 +24,7 @@
+
+   <main>
+-    <h1>Benvenuto</h1>
++    <h1>Il Tuo Coach AI Personalizzato per Fitness e Nutrizione</h1>
+     <p>Scopri il futuro del fitness personalizzato</p>
+   </main>

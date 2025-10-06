@@ -1,0 +1,29 @@
+--- a/index.html
++++ b/index.html
+@@ -45,7 +45,7 @@
+   <div class="cta-section">
+-    <a href="#" class="btn btn-primary">Prova Gratis</a>
++    <a href="#signup" class="btn btn-primary" onclick="scrollToSection('signup')">Prova Gratis</a>
+-    <button class="btn btn-secondary">Genera Programma</button>
++    <button class="btn btn-secondary" onclick="generateProgram()">Genera Programma</button>
+   </div>
+
+@@ -120,6 +120,20 @@
+   </footer>
+
++  <script>
++  function scrollToSection(sectionId) {
++    const element = document.getElementById(sectionId);
++    if (element) {
++      element.scrollIntoView({ behavior: 'smooth' });
++    }
++  }
++  
++  function generateProgram() {
++    // Implementazione stub - da collegare a API reale
++    showModal('Funzionalità in sviluppo. Registrati per essere notificato!');
++  }
++  </script>
++  
+ </body>
+ </html>

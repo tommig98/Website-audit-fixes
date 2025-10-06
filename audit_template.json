@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "url": "https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/e63d143ef0f7b56e6618c83e923cdce2/6fb46371-3c21-448c-a419-eea748b8245c/index.html",
+    "audit_date": "2025-10-04T19:14:45.484599",
+    "audit_version": "1.0",
+    "status": "template_ready_for_execution"
+  },
+  "routes_and_links": {
+    "description": "Elenco di tutte le route interne e link con HTTP status",
+    "internal_links": [],
+    "external_links": [],
+    "broken_links": [],
+    "status_codes": {}
+  },
+  "broken_anchors": {
+    "description": "Lista di anchor con href vuoti o che puntano a ID non esistenti",
+    "empty_href": [],
+    "missing_targets": [],
+    "selectors": []
+  },
+  "non_functional_buttons": {
+    "description": "Pulsanti senza handler JS o href funzionante",
+    "buttons_without_handlers": [],
+    "css_selectors": []
+  },
+  "broken_forms": {
+    "description": "Form con action vuote o non raggiungibili",
+    "forms_with_empty_action": [],
+    "unreachable_endpoints": [],
+    "validation_issues": []
+  },
+  "missing_assets": {
+    "description": "File assets non trovati (404) e dimensioni",
+    "css_files": [],
+    "js_files": [],
+    "images": [],
+    "other_assets": [],
+    "total_size_kb": 0
+  },
+  "security_issues": {
+    "description": "Stringhe sensibili e problemi di sicurezza",
+    "exposed_secrets": [],
+    "api_keys": [],
+    "security_headers": {},
+    "csp_violations": []
+  },
+  "console_errors": {
+    "description": "Errori JavaScript e console logs trovati",
+    "js_errors": [],
+    "console_logs": [],
+    "stack_traces": []
+  },
+  "placeholder_content": {
+    "description": "Elementi con testo placeholder",
+    "placeholder_texts": [],
+    "todo_items": [],
+    "warning_elements": [],
+    "selectors": []
+  },
+  "policy_links": {
+    "description": "Link a privacy policy, terms, etc.",
+    "privacy_policy": {
+      "exists": false,
+      "url": "",
+      "accessible": false
+    },
+    "terms_of_service": {
+      "exists": false,
+      "url": "",
+      "accessible": false
+    },
+    "cookie_policy": {
+      "exists": false,
+      "url": "",
+      "accessible": false
+    }
+  },
+  "language_issues": {
+    "description": "Mismatch linguistici",
+    "primary_language": "it",
+    "mixed_languages": [],
+    "missing_lang_attributes": []
+  },
+  "seo_analysis": {
+    "meta_title": {
+      "exists": false,
+      "content": "",
+      "length": 0
+    },
+    "meta_description": {
+      "exists": false,
+      "content": "",
+      "length": 0
+    },
+    "h1_tags": {
+      "count": 0,
+      "content": []
+    },
+    "og_tags": {
+      "count": 0,
+      "complete": false
+    },
+    "json_ld": {
+      "exists": false,
+      "valid": false
+    }
+  },
+  "accessibility_issues": {
+    "missing_alt_text": [],
+    "missing_aria_labels": [],
+    "color_contrast": {
+      "violations": [],
+      "ratio_checks": []
+    },
+    "focus_management": {
+      "issues": []
+    },
+    "keyboard_navigation": {
+      "problems": []
+    }
+  },
+  "performance_issues": {
+    "large_images": [],
+    "blocking_resources": [],
+    "unused_css": [],
+    "optimization_opportunities": []
+  }
+}

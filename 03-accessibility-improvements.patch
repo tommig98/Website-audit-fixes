@@ -1,0 +1,33 @@
+--- a/index.html
++++ b/index.html
+@@ -35,8 +35,8 @@
+
+   <section class="hero">
+-    <img src="hero-image.jpg" class="hero-img">
++    <img src="hero-image.jpg" alt="Personal trainer che assiste un cliente durante l'allenamento" class="hero-img">
+-    <button class="cta-btn">Inizia Ora</button>
++    <button class="cta-btn" aria-label="Inizia il tuo percorso fitness personalizzato">Inizia Ora</button>
+   </section>
+
+@@ -55,7 +55,7 @@
+   </section>
+
+   <section class="testimonials">
+-    <h2>Cosa Dicono i Clienti</h2>
++    <h2 id="testimonials">Cosa Dicono i Clienti</h2>
+     <div class="testimonial-grid" role="region" aria-labelledby="testimonials">
+       <div class="testimonial-card">
+         <blockquote>
+@@ -78,6 +78,7 @@
++  <a href="#main-content" class="skip-link">Vai al contenuto principale</a>
++  
+   <nav role="navigation" aria-label="Menu principale">
+     <ul>
+       <li><a href="#home">Home</a></li>
+@@ -90,7 +91,7 @@
+   </nav>
+
+-  <main>
++  <main id="main-content" role="main">
+     <!-- contenuto principale -->
+   </main>
